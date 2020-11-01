@@ -7,7 +7,7 @@ if (isset($_POST['submit']))
 	$password = $_POST['password'];
 	$phone = $_POST['phone'];
 
-	$conn = mysqli_connect('localhost','root','','assignments');
+	$conn = mysqli_connect('localhost','root','','registrations');
 
 	if (mysqli_connect_error())
 	{
